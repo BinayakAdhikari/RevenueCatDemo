@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
-import 'package:revenue_cat_demo/app_data.dart';
-import 'package:revenue_cat_demo/rconstant.dart';
-import 'package:revenue_cat_demo/styles.dart';
-import 'package:revenue_cat_demo/use.dart';
-import 'package:revenue_cat_demo/weather.dart';
+import 'package:revenue_cat_demo/src/models/app_data.dart';
+import 'package:revenue_cat_demo/src/constant.dart';
+import 'package:revenue_cat_demo/src/models/styles.dart';
+import 'package:revenue_cat_demo/src/views/account.dart';
+import 'package:revenue_cat_demo/src/views/weather.dart';
 
 final GlobalKey<NavigatorState> firstTabNavKey = GlobalKey<NavigatorState>();
 final GlobalKey<NavigatorState> secondTabNavKey = GlobalKey<NavigatorState>();

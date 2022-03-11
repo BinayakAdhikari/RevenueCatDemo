@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
-import 'package:revenue_cat_demo/rconstant.dart';
-import 'package:revenue_cat_demo/styles.dart';
+import 'package:revenue_cat_demo/src/constant.dart';
+import 'package:revenue_cat_demo/src/models/styles.dart';
 
-import 'app_data.dart';
+import '../models/app_data.dart';
 
 class Paywall extends StatefulWidget {
   final Offering offering;

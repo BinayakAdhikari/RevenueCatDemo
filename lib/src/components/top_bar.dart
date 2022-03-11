@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'dart:io';
 
-import 'package:revenue_cat_demo/styles.dart';
+import 'package:revenue_cat_demo/src/models/styles.dart';
 
 class TopBar extends StatelessWidget {
   final String text;

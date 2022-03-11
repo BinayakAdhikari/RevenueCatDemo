@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:revenue_cat_demo/styles.dart';
+import 'package:revenue_cat_demo/src/models/styles.dart';
 
-import 'home.dart';
+import 'views/home.dart';
 
 class WeatherApp extends StatelessWidget {
   const WeatherApp({Key? key}) : super(key: key);

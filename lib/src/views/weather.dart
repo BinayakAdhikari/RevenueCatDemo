@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
 import 'package:purchases_flutter/purchases_flutter.dart';
-import 'package:revenue_cat_demo/app_data.dart';
-import 'package:revenue_cat_demo/native_dialog.dart';
-import 'package:revenue_cat_demo/paywall.dart';
-import 'package:revenue_cat_demo/rconstant.dart';
-import 'package:revenue_cat_demo/styles.dart';
-import 'package:revenue_cat_demo/top_bar.dart';
-import 'package:revenue_cat_demo/weather_data.dart';
+import 'package:revenue_cat_demo/src/models/app_data.dart';
+import 'package:revenue_cat_demo/src/components/native_dialog.dart';
+import 'package:revenue_cat_demo/src/views/paywall.dart';
+import 'package:revenue_cat_demo/src/constant.dart';
+import 'package:revenue_cat_demo/src/models/styles.dart';
+import 'package:revenue_cat_demo/src/components/top_bar.dart';
+import 'package:revenue_cat_demo/src/models/weather_data.dart';
 
 class WeatherScreen extends StatefulWidget {
   @override
